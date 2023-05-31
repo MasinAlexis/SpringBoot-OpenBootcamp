@@ -1,0 +1,44 @@
+[
+  {
+    "marca": "Acer",
+    "modelo": "Aspire E575",
+    "memDisco": 1000,
+    "memRam": 8,
+    "microprocesador": "Intel I5"
+  },
+  {
+    "marca": "Lenovo",
+    "modelo": "Ideadpad",
+    "memDisco": 500,
+    "memRam": 4,
+    "microprocesador": "Intel I3"
+  },
+  {
+    "marca": "Exo",
+    "modelo": "Smart",
+    "memDisco": 500,
+    "memRam": 4,
+    "microprocesador": "Intel N4020"
+  },
+  {
+    "marca": "Dell",
+    "modelo": "Inspiron",
+    "memDisco": 1000,
+    "memRam": 12,
+    "microprocesador": "AMD Ryzen 5"
+  },
+  {
+    "marca": "Asus",
+    "modelo": " ZenBook Pro Duo",
+    "memDisco": 2000,
+    "memRam": 16,
+    "microprocesador": "Intel I7"
+  },
+  {
+    "marca": "Acer",
+    "modelo": "Nitro 5",
+    "memDisco": 1000,
+    "memRam": 16,
+    "microprocesador": "AMD Ryzen 5"
+  }
+]
