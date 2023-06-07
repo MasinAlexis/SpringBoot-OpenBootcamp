@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "2807ca6d-cbbd-4b6e-af01-9d9d585dc345",
+		"name": "Ejercicios OB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saludo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/saludo",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"saludo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar laptops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/listar",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar Laptops",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"marca\": \"Acer\",\r\n        \"modelo\": \"Aspire E575\",\r\n        \"memDisco\": 1000,\r\n        \"memRam\": 8,\r\n        \"microprocesador\": \"Intel I5\"\r\n    },\r\n    {\r\n        \"marca\": \"Lenovo\",\r\n        \"modelo\": \"Ideadpad\",\r\n        \"memDisco\": 500,\r\n        \"memRam\": 4,\r\n        \"microprocesador\": \"Intel I3\"\r\n    },\r\n    {\r\n        \"marca\": \"Exo\",\r\n        \"modelo\": \"Smart\",\r\n        \"memDisco\": 500,\r\n        \"memRam\": 4,\r\n        \"microprocesador\": \"Intel N4020\"\r\n    },\r\n    {\r\n        \"marca\": \"Dell\",\r\n        \"modelo\": \"Inspiron\",\r\n        \"memDisco\": 1000,\r\n        \"memRam\": 12,\r\n        \"microprocesador\": \"AMD Ryzen 5\"\r\n    },\r\n    {\r\n        \"marca\": \"Asus\",\r\n        \"modelo\": \" ZenBook Pro Duo\",\r\n        \"memDisco\": 2000,\r\n        \"memRam\": 16,\r\n        \"microprocesador\": \"Intel I7\"\r\n    },\r\n    {\r\n        \"marca\": \"Asus\",\r\n        \"modelo\": \" ZenBook Pro Duo\",\r\n        \"memDisco\": 2000,\r\n        \"memRam\": 16,\r\n        \"microprocesador\": \"Intel I7\"\r\n    },\r\n    {\r\n        \"marca\": \"Acer\",\r\n        \"modelo\": \"Nitro 5\",\r\n        \"memDisco\": 1000,\r\n        \"memRam\": 16,\r\n        \"microprocesador\": \"AMD Ryzen 5\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/guardarLaptops",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"guardarLaptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar una Laptop",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"marca\": \"Lenovo\",\r\n    \"modelo\": \"ThinkPad\",\r\n    \"memDisco\": 1000,\r\n    \"memRam\": 8,\r\n    \"microprocesador\": \"Intel I3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/guardarLaptop",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"guardarLaptop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar una Laptop",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/listar/6",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"listar",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Laptop",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Laptop",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar todas las Laptops",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
